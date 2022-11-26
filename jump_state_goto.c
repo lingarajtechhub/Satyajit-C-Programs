@@ -18,4 +18,4 @@ int main()
         printf("%d is a odd number.", n);
     
     //return 0;
-}//when if i==5 then jump goto stmt apply using while loop here.
+}//when if i==5 then jump goto stmt apply using while loop here.um f
