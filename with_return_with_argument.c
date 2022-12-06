@@ -22,3 +22,4 @@ int main()
 
 //area of circle,triangle, rectangle,square using function
 //perimeter of circle,triangle, rectangle,square using function
+// i = i+2 => i+=2 => i*=2 => i-=2 short hand operators

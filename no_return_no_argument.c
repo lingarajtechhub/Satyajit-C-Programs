@@ -1,12 +1,12 @@
-//No Return No Argument Function => Addition of 2 numbers
+// No Return No Argument Function => Addition of 2 numbers
 
-#include<stdio.h>
+#include <stdio.h>
 
-//prototype
-//void add_2_numbers();
+// prototype
+// void add_2_numbers();
 void _sub_2_numbers();
 
-void add_2_numbers() // called function
+void add_2_numbers(void) // called function
 {
     int a, b;
     a = 34;
@@ -15,7 +15,7 @@ void add_2_numbers() // called function
     _sub_2_numbers(); // calling
 }
 
-void _sub_2_numbers() // called
+void _sub_2_numbers(void) // called
 {
     int a, b;
     a = 34;
@@ -25,8 +25,7 @@ void _sub_2_numbers() // called
 
 int main()
 {
-    add_2_numbers();//calling function
+    add_2_numbers(); // calling function
 
     return 0;
 }
-

@@ -3,11 +3,11 @@
 #include<stdio.h>
 
 //prototype
-int _add_2_numbers();
+float _add_2_numbers();
 
-int _add_2_numbers()
+float _add_2_numbers()
 {
-    int x = 23, y = 56;
+    float x = 23, y = 56;
     return (x + y);
 }
 
@@ -15,6 +15,6 @@ int _add_2_numbers()
 int main()
 {
     //int sum = _add_2_numbers();
-    printf("Sum Of 2 numbers:%d ", _add_2_numbers());
+    printf("Sum Of 2 numbers:%f ", _add_2_numbers());
     return 0;
 }
