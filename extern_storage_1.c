@@ -91,17 +91,17 @@ int opengenus = 1;	            Yes	      Yes	     Yes
 */
 
 #include <stdio.h>
-#include "extern.h"
+#include "extern.h" //user defined header file
 int sum(int x, int y);
 
-int sum(int x, int y)
+int sum(int x, int y) // function defination
 {
     return (x + y);
 }
 
 int main()
 {
-    int var = 10;
+    int var = 10; // defination & initialization
     printf("Sum=%d\n", sum(2, 3));
     printf("%d", var);
     return 0;
