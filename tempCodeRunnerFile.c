@@ -1,1 +1,4 @@
-*(ptr + i) + j)
+int sum(int x, int y)
+{
+    return (x + y);
+}
